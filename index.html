@@ -28,6 +28,7 @@
           <input type="submit" value="Submit" class="btn btn-primary btn-block">
         </form>
         <hr>
+<script>
         <% if(files){ %>
           <% files.forEach(function(file) { %>
             <div class="card card-body mb-3">
@@ -44,6 +45,7 @@
               <% } else { %>
                 <p>No files to show</p>
                 <% } %>
+</script>
       </div>
     </div>
   </div>
@@ -54,6 +56,6 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+<script src="ejs.js"></script>
 </body>
-
 </html>
